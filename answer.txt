@@ -89,4 +89,18 @@
     Error: Non-space characters found without seeing a doctype first. Expected <!DOCTYPE html>.
     Error: Element head is missing a required instance of child element title.
 
-4.     
+4.  After fixing the errors, it shows Document checking completed. No errors or warnings to show (valid) .
+
+
+
+
+2.2.1 Exercises-
+
+1. After checking the commits messages in github page it is fully matched with the git log command output which i have executed in my local system.
+
+2. 2nd step done.
+
+2.3.1 Exercises-
+
+1. Added a official git documentation link  in  Readme.md file.
+

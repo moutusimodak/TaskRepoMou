@@ -74,4 +74,19 @@
 
 1. To view the full details of commit i have used git log -p command. here -p shows all the details.
 
-2. 
+2. I created one index.html page and added h1 tag to print the "Hello, World" heading and p tag to write a paragraph "Call me Ishmael" .
+
+
+
+1.6.1 Exercises-
+
+1. To add a title on index.html page i have used title tag following with the message "A whale of a greeting" . It is a output of a page title.
+
+2. To Commit the new title with a commit message i have used - t first added this file to git repository and commited by this command  git commit -m "index.html page added with a new title".
+    To see the details of last commit message i have usec git log -p.
+
+3.  After running the content of listing 1.8 into an html validator i got 2 errors. These are-
+    Error: Non-space characters found without seeing a doctype first. Expected <!DOCTYPE html>.
+    Error: Element head is missing a required instance of child element title.
+
+4.     

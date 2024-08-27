@@ -52,4 +52,26 @@
     to write anything in vi editor pressed i (Insert)
     Now added Add bar text, next press Esc to leave from insert mode then pressed :wq to save and exit
 
-6. To confirm the commits that it worked correctly-  used git log    
+6. To confirm the commits that it worked correctly used -
+    git log   
+
+
+1.4.1 Exercises-
+1.  To create empty file baz , command is touch baz
+    Now if we run git commit -am "Add baz" command it will not work because this file is not tracked or added in git repo. 
+
+2.  if we want to add baz in staging area use git add -A and then git commit -m "Add bazz" these commands will added all the files in git repository and commited.
+
+3.  If there is something wrong in our commit message then we can undo by using this command - git commit --amend .
+    this will open a vi editor then we can coreec t our commit mesaage and save and exit.
+
+4. For verify the message ammended properly  i have used at first git log command to get the sha (or commit id) of the last commit.
+    Then for verify properly ammendedor not run - git show <SHA>
+
+
+
+1.5.1 Exercises
+
+1. To view the full details of commit i have used git log -p command. here -p shows all the details.
+
+2. 
